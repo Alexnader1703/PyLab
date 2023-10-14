@@ -1,6 +1,6 @@
 from MergeSort import merge_sort
-
 import time
+
 file = open('Input.txt', 'r')
 nums = [int(i) for i in file.readline().split(',')]  # Считываем числа из файла и разбиваем их по запятым
 file.close()

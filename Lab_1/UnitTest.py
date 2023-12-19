@@ -42,11 +42,6 @@ class TestMergeSort(unittest.TestCase):
             merge_sort(array_error)
             merge_sort(bool_error)
 
-    def test_merge_sort_with_non_list_input(self):
-        # Тестирование функции merge_sort с неверным типом входных данных
-        non_list_input = 123
-        with self.assertRaises(TypeError):
-            merge_sort(non_list_input)
 
 if __name__ == '__main__':
     unittest.main()

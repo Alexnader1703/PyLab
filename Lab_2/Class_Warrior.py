@@ -1,10 +1,10 @@
 
 class Warrior:
-    def __init__(self, name):
+    def __init__(self, name,health,damage):
         # Конструктор класса Warrior, инициализирует объект воина с заданным именем.
         self.name = name
-        self.health = 100  # Устанавливаем начальное здоровье в 100 очков.
-        self.damage = 20   # Устанавливаем урон, который наносит воин при атаке, в 20 очков.
+        self.health = health  # Устанавливаем начальное здоровье .
+        self.damage = damage   # Устанавливаем урон, который наносит воин при атаке.
 
     def attack(self, enemy):
         # Метод attack позволяет воину атаковать другого воина (передается как аргумент enemy).

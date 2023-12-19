@@ -1,7 +1,7 @@
 from Class_Warrior import Warrior
 import random
-hero1 = Warrior("Воин 1")  # Создаем первого воина.
-hero2 = Warrior("Воин 2")  # Создаем второго воина.
+hero1 = Warrior("Воин 1",100,20)  # Создаем первого воина.
+hero2 = Warrior("Воин 2",100,20)  # Создаем второго воина.
 
 while hero1.is_alive() and hero2.is_alive():#пока оба воина живы.
     attacker = random.choice([hero1, hero2])  # Случайным образом выбираем, кто атакует.
